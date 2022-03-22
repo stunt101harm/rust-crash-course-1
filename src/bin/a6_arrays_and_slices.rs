@@ -5,7 +5,7 @@ fn main() {
     fn borrow_slice(array: [i32; 5], slice: &[i32]) {
         println!("{:?}", array);
         println!("{:?}", slice);
-        println!("length: {}", slice.len());
+        println!("length of slice: {}", slice.len());
         println!("{} {}", slice[0], slice[1]);
     }
     borrow_slice(array, slice);
