@@ -1,3 +1,4 @@
+// && ||
 fn main() {
     let number = 0;
     if number > 1 {

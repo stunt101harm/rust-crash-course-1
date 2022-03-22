@@ -1,11 +1,10 @@
 use std::collections::HashMap;
 
-// Options takes either Some value or None
-// returns either Ok or Err
+// Result returns either Ok or Err
 
 fn divide(number: i32, divisor: i32) -> Result<i32, String> {
     if number % divisor != 0 {
-        Err(("not divisble".to_string()))
+        Err("not divisble".to_string())
     } else {
         Ok(number / divisor)
     }

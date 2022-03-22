@@ -19,7 +19,7 @@ fn main() {
 
     let game = Turn {
         number: 4,
-        direction: Direction::Left,
+        direction: Direction::Up,
     };
 
     if game.direction == Direction::Left {

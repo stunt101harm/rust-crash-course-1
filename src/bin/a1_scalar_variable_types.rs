@@ -24,6 +24,7 @@ fn main() {
     // char
 
     let char: char = 'a';
+    let chars = 'b';
     println!("{}", char);
 
     // string

@@ -2,6 +2,6 @@
 // variables have to be explicitly made mutable by including "mut" before variable name
 
 fn main() {
-    let number = 5;
+    let mut number = 5;
     number = 6;
 }
