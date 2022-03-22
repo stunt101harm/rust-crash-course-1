@@ -21,6 +21,11 @@ fn main() {
         unsigned_integer, signed_integer, float
     );
 
+    // char
+
+    let char: char = 'a';
+    println!("{}", char);
+
     // string
 
     let string: String = "name".to_string();
@@ -33,5 +38,4 @@ fn main() {
     let is_true: bool = true;
 
     println!("is true: {}", is_true);
-    
 }
